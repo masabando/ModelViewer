@@ -1,0 +1,19 @@
+@import "bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+html, body {
+  font-family: 'Noto Sans JP', sans-serif;
+  touch-action: manipulation;
+}
+
+#canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#resetButton {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
